@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#14151f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SNES Tracker">
+<title>SNES Collection Tracker</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{--bg:#14151f;--card:#1e2030;--line:#2c2f45;--text:#eceefa;--mute:#9aa0bd;--own:#3ecf8e;--need:#e86b6b;--acc:#8b7cf6}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--text);font:16px/1.35 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:calc(10px + env(safe-area-inset-top)) 14px 8px;border-bottom:1px solid var(--line)}
+h1{font-size:18px;margin:0 0 8px;display:flex;align-items:center;gap:8px}h1 .dots{display:inline-flex;gap:3px}h1 .dots i{width:9px;height:9px;border-radius:50%;display:block}
+.stats{display:flex;justify-content:space-between;font-size:14px;color:var(--mute);margin-bottom:5px}.stats b{color:var(--text)}
+.bar{height:8px;background:var(--line);border-radius:6px;overflow:hidden;margin-bottom:10px}.bar div{height:100%;background:linear-gradient(90deg,var(--acc),var(--own));width:0}
+.search{position:relative}.search input{width:100%;font-size:18px;padding:13px 42px 13px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);outline:none}
+.search input:focus{border-color:var(--acc)}.search button{position:absolute;right:6px;top:6px;width:36px;height:36px;border:0;background:none;color:var(--mute);font-size:22px;display:none}
+.chips{display:flex;gap:8px;margin-top:9px}.chip{flex:1;padding:9px 0;border-radius:20px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:15px}
+.chip.on{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:600}
+main{padding:0 44px 90px 14px}
+.letter{position:sticky;top:var(--hh,170px);background:var(--bg);color:var(--acc);font-weight:700;padding:10px 2px 4px;font-size:14px;z-index:2}
+.row{display:flex;align-items:center;gap:10px;padding:12px;margin:5px 0;background:var(--card);border-radius:10px;border-left:4px solid transparent;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
+.row.own{border-left-color:var(--own)}.row .t{flex:1}.row.own .t{font-weight:600}
+.badge{font-size:12px;font-weight:700;padding:4px 9px;border-radius:12px;white-space:nowrap}
+.own .badge{background:rgba(62,207,142,.15);color:var(--own)}.need .badge{background:rgba(232,107,107,.12);color:var(--need)}
+.row.flash{animation:fl .4s}@keyframes fl{from{background:#34385a}}
+.jump{position:fixed;right:2px;top:var(--hh,170px);bottom:70px;width:36px;display:flex;flex-direction:column;justify-content:space-around;align-items:center;font-size:11px;font-weight:700;color:var(--acc);z-index:6;touch-action:none}
+.jump span{padding:0 8px}.empty{text-align:center;color:var(--mute);padding:40px 0}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#101119;border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom);z-index:7}
+nav button{flex:1;padding:14px 0;background:none;border:0;color:var(--mute);font-size:15px}nav button.on{color:var(--text);font-weight:700}
+.panel{display:none;padding:14px 14px 100px}.panel.on{display:block}
+.owned-list{columns:1;font-size:17px;padding-left:22px}.owned-list li{padding:5px 0;break-inside:avoid}
+@media(min-width:700px){.owned-list{columns:2}main,.panel{max-width:900px;margin:0 auto}}
+.note{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--mute);font-size:14px;margin:12px 0}
+.btn{display:block;width:100%;padding:13px;margin:8px 0;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:16px}
+.btn.pri{background:var(--acc);border-color:var(--acc);color:#fff}.btn.warn{color:var(--need)}
+textarea{width:100%;min-height:140px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:10px;font-size:14px}
+h2{font-size:18px;margin:6px 0 10px}.toast{position:fixed;left:50%;bottom:80px;transform:translateX(-50%);background:#333754;padding:10px 16px;border-radius:20px;font-size:14px;opacity:0;transition:.3s;pointer-events:none;z-index:9}.toast.on{opacity:1}
+</style>
+</head>
+<body>
+<header id="hdr">
+  <h1><span class="dots"><i style="background:#e4413e"></i><i style="background:#f6c344"></i><i style="background:#3a7bd5"></i><i style="background:#3ecf8e"></i></span>SNES Collection</h1>
+  <div class="stats"><span>Owned <b id="cOwn">0</b> of <b id="cTot">0</b></span><span><b id="cPct">0%</b> · Need <b id="cNeed">0</b></span></div>
+  <div class="bar"><div id="bar"></div></div>
+  <div id="listCtl">
+    <div class="search"><input id="q" type="search" placeholder="Search games… (e.g. zelda)" autocomplete="off" autocorrect="off" spellcheck="false"><button id="qx" aria-label="Clear">×</button></div>
+    <div class="chips"><button class="chip on" data-f="all">All</button><button class="chip" data-f="own">Owned</button><button class="chip" data-f="need">Need</button></div>
+  </div>
+</header>
+<main id="list"></main>
+<div class="jump" id="jump"></div>
+<section class="panel" id="ownedPanel"><h2>Owned games (<span id="oc"></span>)</h2><ol class="owned-list" id="ownedList"></ol></section>
+<section class="panel" id="morePanel">
+  <h2>About this list</h2>
+  <div class="note">Tap any game to switch it between <b style="color:var(--own)">Owned</b> and <b style="color:var(--need)">Need</b>. Changes are saved <b>only on this phone/browser</b>. Other people won't see them. To move changes to another phone, use Export, then Import on the other phone.</div>
+  <div class="note" id="srcNote"></div>
+  <h2>Export / Import</h2>
+  <button class="btn pri" id="exp">Copy my owned list</button>
+  <button class="btn" id="share">Share owned list…</button>
+  <textarea id="io" placeholder="Paste an exported list here (JSON or one title per line), then tap Import"></textarea>
+  <button class="btn" id="imp">Import (replaces this phone's owned list)</button>
+  <button class="btn warn" id="reset">Reset to Joe's list</button>
+  <p style="color:var(--mute);font-size:12px">Version __VER__</p>
+</section>
+<nav><button class="on" data-v="list">All games</button><button data-v="owned">Owned list</button><button data-v="more">Share / Sync</button></nav>
+<div class="toast" id="toast"></div>
+<script>
+const GAMES=__DATA__;
+const KEY="snes-owned-v1";
+const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/½/g," 1 2").replace(/&/g," and ").replace(/[^a-z0-9 ]+/g,"").replace(/\b(iii)\b/g,"3").replace(/\b(ii)\b/g,"2").replace(/\biv\b/g,"4").replace(/\s+/g," ").trim();
+const sortKey=t=>norm(t).replace(/^the /,"");
+GAMES.forEach((g,i)=>{g.id=i;g.n=norm(g.title);g.nc=g.n.replace(/ /g,"");g.k=sortKey(g.title);const c=g.k[0]||"#";g.L=/[a-z]/.test(c)?c.toUpperCase():"#"});
+GAMES.sort((a,b)=>a.k<b.k?-1:a.k>b.k?1:0);
+const DEFAULT=new Set(GAMES.filter(g=>g.owned).map(g=>g.title));
+const byNorm=new Map(GAMES.map(g=>[g.n,g]));
+let owned;try{const s=JSON.parse(localStorage.getItem(KEY));owned=Array.isArray(s)?new Set(s):new Set(DEFAULT)}catch(e){owned=new Set(DEFAULT)}
+const custom=()=>localStorage.getItem(KEY)!==null;
+const save=()=>localStorage.setItem(KEY,JSON.stringify([...owned]));
+let filter="all",q="";
+const $=id=>document.getElementById(id);
+function toast(m){const t=$("toast");t.textContent=m;t.classList.add("on");clearTimeout(toast.x);toast.x=setTimeout(()=>t.classList.remove("on"),1800)}
+function stats(){const n=GAMES.filter(g=>owned.has(g.title)).length,T=GAMES.length;$("cOwn").textContent=n;$("cTot").textContent=T;$("cNeed").textContent=T-n;const p=T?n/T*100:0;$("cPct").textContent=p.toFixed(1)+"%";$("bar").style.width=p+"%";
+$("srcNote").innerHTML=custom()?"This phone is using <b>your own edited list</b>. Tap \"Reset to Joe's list\" to go back to Joe's.":"This phone is showing <b>Joe's list</b> (the default).";}
+function render(){const qq=norm(q),qc=qq.replace(/ /g,"");const words=qq.split(" ").filter(Boolean);
+const rows=GAMES.filter(g=>{const o=owned.has(g.title);if(filter==="own"&&!o)return false;if(filter==="need"&&o)return false;if(!qq)return true;return g.nc.includes(qc)||words.every(w=>g.n.includes(w))});
+let h="",L="";const letters=[];
+for(const g of rows){if(g.L!==L){L=g.L;letters.push(L);h+=`<div class="letter" id="L-${L}">${L}</div>`}const o=owned.has(g.title);
+h+=`<div class="row ${o?"own":"need"}" data-id="${g.id}"><span class="t">${esc(g.title)}</span><span class="badge">${o?"✓ OWNED":"NEED"}</span></div>`}
+$("list").innerHTML=h||`<div class="empty">No games match “${esc(q)}”</div>`;
+$("jump").innerHTML=qq?"":letters.map(l=>`<span data-l="${l}">${l}</span>`).join("");stats()}
+function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function renderOwned(){const l=GAMES.filter(g=>owned.has(g.title));$("oc").textContent=l.length;$("ownedList").innerHTML=l.map(g=>`<li>${esc(g.title)}</li>`).join("")}
+$("list").addEventListener("click",e=>{const r=e.target.closest(".row");if(!r)return;const g=GAMES.find(x=>x.id==r.dataset.id);
+if(owned.has(g.title))owned.delete(g.title);else owned.add(g.title);save();const o=owned.has(g.title);
+r.className="row "+(o?"own":"need")+" flash";r.querySelector(".badge").textContent=o?"✓ OWNED":"NEED";stats();toast((o?"Marked owned: ":"Marked need: ")+g.title);
+if(filter!=="all")setTimeout(render,600)});
+let qt;$("q").addEventListener("input",e=>{q=e.target.value;$("qx").style.display=q?"block":"none";clearTimeout(qt);qt=setTimeout(()=>{render();window.scrollTo(0,0)},60)});
+$("qx").onclick=()=>{$("q").value="";q="";$("qx").style.display="none";render();$("q").focus()};
+document.querySelectorAll(".chip").forEach(c=>c.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("on",x===c));filter=c.dataset.f;render();window.scrollTo(0,0)});
+function jumpTo(y){const el=document.elementFromPoint(window.innerWidth-15,y);if(el&&el.dataset.l){const t=$("L-"+el.dataset.l);if(t)window.scrollTo(0,t.offsetTop-hh())}}
+const J=$("jump");J.addEventListener("touchstart",e=>{jumpTo(e.touches[0].clientY);e.preventDefault()},{passive:false});J.addEventListener("touchmove",e=>{jumpTo(e.touches[0].clientY);e.preventDefault()},{passive:false});J.addEventListener("click",e=>jumpTo(e.clientY));
+function hh(){return $("hdr").offsetHeight}
+function setHH(){document.documentElement.style.setProperty("--hh",hh()+"px")}
+addEventListener("resize",setHH);
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));const v=b.dataset.v;
+$("list").style.display=v==="list"?"":"none";J.style.display=v==="list"?"":"none";$("listCtl").style.display=v==="list"?"":"none";
+$("ownedPanel").classList.toggle("on",v==="owned");$("morePanel").classList.toggle("on",v==="more");if(v==="owned")renderOwned();stats();setHH();window.scrollTo(0,0)});
+const exportText=()=>JSON.stringify({app:"snes-tracker",exported:new Date().toISOString(),owned:GAMES.filter(g=>owned.has(g.title)).map(g=>g.title)},null,1);
+$("exp").onclick=async()=>{const t=exportText();$("io").value=t;try{await navigator.clipboard.writeText(t);toast("Copied! Paste it into a text/email")}catch(e){$("io").select();toast("Select & copy the text below")}};
+$("share").onclick=async()=>{const t=exportText();if(navigator.share){try{await navigator.share({title:"My SNES owned list",text:t})}catch(e){}}else{$("io").value=t;toast("Sharing not supported — text is below")}};
+$("imp").onclick=()=>{const raw=$("io").value.trim();if(!raw)return toast("Paste a list first");let titles;
+try{const j=JSON.parse(raw);titles=Array.isArray(j)?j:j.owned}catch(e){titles=raw.split(/\r?\n/)}
+const s=new Set(),miss=[];for(const t of titles||[]){if(!String(t).trim())continue;const g=byNorm.get(norm(String(t).replace(/^\s*\d+[.)]\s*/,"")))||byNorm.get(norm(String(t)));if(g)s.add(g.title);else miss.push(t)}
+if(!s.size)return toast("No matching games found");if(!confirm(`Replace this phone's list with ${s.size} owned games?`+(miss.length?`\n(${miss.length} lines didn't match)`:"")))return;
+owned=s;save();render();toast(`Imported ${s.size} games`)};
+$("reset").onclick=()=>{if(!confirm("Reset this phone to Joe's list? Your changes on this phone will be lost."))return;localStorage.removeItem(KEY);owned=new Set(DEFAULT);render();toast("Reset to Joe's list")};
+render();setHH();
+if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js?v=__VER__").then(r=>r.update());let rl=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!rl){rl=true;location.reload()}})}
+</script>
+</body>
+</html>

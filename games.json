@@ -1,0 +1,3552 @@
+[
+{
+"title": "B.O.B.",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Cacoma Knight in Bizyland",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "D-Force",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "E.V.O.: Search for Eden",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "F-Zero",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Garry Kitchen's Super Battletank: War in the Gulf",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Hagane: The Final Conflict",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Illusion of Gaia",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "J.R.R. Tolkien's The Lord of the Rings - Volume 1",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Ka-Blooey",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lagoon",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "M.A.C.S. Basic Rifle Marksmanship",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Natsume Championship Wrestling",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Obitus",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "P.T.O. II: Pacific Theater of Operations",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Q*bert 3",
+"owned": false,
+"letter": "Q"
+},
+{
+"title": "R-Type 3: The Third Lightning",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Samurai Shodown",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "T2: The Arcade Game",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "U.N. Squadron",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Vegas Stakes",
+"owned": true,
+"letter": "V"
+},
+{
+"title": "War 2410",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "X-Kaliber 2097",
+"owned": false,
+"letter": "X"
+},
+{
+"title": "Yoshi's Cookie",
+"owned": false,
+"letter": "Y"
+},
+{
+"title": "Zero the Kamikaze Squirrel",
+"owned": false,
+"letter": "Z"
+},
+{
+"title": "3 Ninjas Kick Back",
+"owned": false,
+"letter": "0-9"
+},
+{
+"title": "Aaahh!!! Real Monsters",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Ballz 3D",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Cal Ripken Jr. Baseball",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Daffy Duck: The Marvin Missions",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Earth Defense Force",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "F1 Pole Position",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Gemfire",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Hal's Hole-in-One Golf",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Imperium",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "Jack Nicklaus Golf",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Kawasaki Caribbean Challenge",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lamborghini American Challenge",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Madden NFL '94",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA All-Star Challenge",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Ogre Battle: The March of the Black Queen",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "P.T.O.: Pacific Theater of Operations",
+"owned": true,
+"letter": "P"
+},
+{
+"title": "Race Drivin'",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Saturday Night Slam Masters",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Taz-Mania",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Ultima VI: The False Prophet",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Venom/Spider-Man: Separation Anxiety",
+"owned": false,
+"letter": "V"
+},
+{
+"title": "War 3010: The Revolution",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "X-Men: Mutant Apocalypse",
+"owned": true,
+"letter": "X"
+},
+{
+"title": "Yoshi's Safari",
+"owned": false,
+"letter": "Y"
+},
+{
+"title": "Zombies Ate My Neighbours",
+"owned": true,
+"letter": "Z"
+},
+{
+"title": "ABC Monday Night Football",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Barbie: Super Model",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "California Games 2",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Darius Twin",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "EarthBound",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "F1 ROC: Race of Champions",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Genghis Khan 2: Clan of the Gray Wolf",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "HammerLock Wrestling",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Incantation",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "James Bond Jr.",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Kawasaki Superbike Challenge",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Last Action Hero",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Madden NFL '95",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA Give 'n Go",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Olympic Summer Games",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "Pac-Attack",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Radical Rexx",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Scooby-Doo Mystery",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Tecmo Super Baseball",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Ultima VII: The Black Gate",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Virtual Bart",
+"owned": false,
+"letter": "V"
+},
+{
+"title": "Wario's Wood",
+"owned": true,
+"letter": "W"
+},
+{
+"title": "X-Zone",
+"owned": false,
+"letter": "X"
+},
+{
+"title": "Young Merlin",
+"owned": false,
+"letter": "Y"
+},
+{
+"title": "Zool: Ninja of the \"Nth\" Dimension",
+"owned": false,
+"letter": "Z"
+},
+{
+"title": "Acme Animation Factory",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Barkley Shut Up and Jam!",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Capcom's MVP Football",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "David Crane's Amazing Tennis",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Earthworm Jim",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "F1 ROC II: Race of Champions",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "George Foreman's KO Boxing",
+"owned": true,
+"letter": "G"
+},
+{
+"title": "Hardball III",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Indiana Jones' Greatest Adventures",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "Jammit",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Ken Griffey Jr. Presents Major League Baseball",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Legend",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Madden NFL '96",
+"owned": true,
+"letter": "M"
+},
+{
+"title": "NBA Hangtime",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "On the Ball",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "Pac-In-Time",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Raiden Trad",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "SeaQuest DSV",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tecmo Super Bowl",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Ultima: Runes of Virtue II",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Vortex",
+"owned": true,
+"letter": "V"
+},
+{
+"title": "Warlock",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Xardion",
+"owned": false,
+"letter": "X"
+},
+{
+"title": "Ys III: Wanderers from Ys",
+"owned": false,
+"letter": "Y"
+},
+{
+"title": "Zoop",
+"owned": true,
+"letter": "Z"
+},
+{
+"title": "ActRaiser",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Bass Masters Classic",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Capcom's Soccer Shootout",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Demolition Man",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Earthworm Jim 2",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "Faceball 2000",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Ghoul Patrol",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Harley's Humongous Adventure",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Inindo: Way of the Ninja",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "Jeopardy!",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Ken Griffey Jr.'s Winning Run",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lemmings",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Madden NFL '97",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA Jam",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "Operation Europe: Path to Victory 1939–1945",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "Pac-Man 2: The New Adventures",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Rampart",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Secret of Evermore",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tecmo Super Bowl 2: Special Edition",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Ultimate Fighter",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "WarpSpeed",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "ActRaiser 2",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Bass Masters Classic: Pro Edition",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Captain America and The Avengers",
+"owned": true,
+"letter": "C"
+},
+{
+"title": "Demon's Crest",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Eek! The Cat",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "Family Dog",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Goal!",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Harvest Moon",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Inspector Gadget",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "Jeopardy! Deluxe Edition",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Kendo Rage",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lemmings 2: The Tribes",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Madden NFL '98",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA Jam Tournament Edition",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Operation Logic Bomb",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "Packy and Marlon",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Ranma ½: Hard Battle",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Secret of Mana",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tecmo Super Bowl 3: Final Edition",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Ultimate Mortal Kombat 3",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Wayne Gretzky and the NHLPA All-Stars",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Addams Family Values",
+"owned": true,
+"letter": "A"
+},
+{
+"title": "Bassin's Black Bass with Hank Parker",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Captain Commando",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Dennis the Menace",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Emmitt Smith Football",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "Family Feud",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Gods",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Head-On Soccer",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "International Superstar Soccer",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "Jeopardy! Sports Edition",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Kick Off 3: European Challenge",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lester the Unlikely",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Magic Boy",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA Live 95",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "Operation Thunderbolt",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "Paladin's Quest",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Rap Jam: Volume One",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Secret of the Stars",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tecmo Super NBA Basketball",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Ultraman: Towards the Future",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Wayne's World",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Adventures of Yogi Bear",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Batman Forever",
+"owned": true,
+"letter": "B"
+},
+{
+"title": "Captain Novolin",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Desert Strike: Return to the Gulf",
+"owned": true,
+"letter": "D"
+},
+{
+"title": "Equinox",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "Fatal Fury",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Goof Troop",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Hit the Ice",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "International Superstar Soccer Deluxe",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "Jim Lee's WildC.A.T.S: Covert Action Teams",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Kid Klown in Crazy Chase",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lethal Enforcers",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Magic Sword",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA Live 96",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Oscar",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "Paperboy 2",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Realm",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Sensible Soccer: European Champions",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Teenage Mutant Ninja Turtles 4: Turtles in Times",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Uncharted Waters",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "WCW SuperBrawl Wrestling",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Aero Fighters",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Batman Returns",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Carrier Aces",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Dig & Spike Volleyball",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "ESPN Baseball Tonight",
+"owned": true,
+"letter": "E"
+},
+{
+"title": "Fatal Fury 2",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "GP-1",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Home Alone",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "International Tennis Tour",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "Jim Power: The Lost Dimension in 3-D",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Killer Instinct",
+"owned": true,
+"letter": "K"
+},
+{
+"title": "Lethal Weapon",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Major Title",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA Live 97",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Out to Lunch",
+"owned": true,
+"letter": "O"
+},
+{
+"title": "PGA European Tour",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Redline F-1 Racer",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Shadowrun",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Uncharted Waters: New Horizons",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "We're Back! A Dinosaur's Story",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Aero The Acrobat",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Battle Blaze",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Casper",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "DinoCity",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "ESPN National Hockey Night",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "Fatal Fury Special",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "GP-1: Part 2",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Home Alone 2: Lost in New York",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Izzy's Quest for the Olympic Rings",
+"owned": false,
+"letter": "I"
+},
+{
+"title": "Jimmy Connors Pro Tennis Tour",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "King Arthur & the Knights of Justice",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Liberty or Death",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Mario is Missing!",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA Live 98",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Outlander",
+"owned": false,
+"letter": "O"
+},
+{
+"title": "PGA Tour 96",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Relief Pitcher",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Shanghai II: Dragon's Eye",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Terminator 2: Judgement Day",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Uniracers",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Weaponlord",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Aero The Acrobat 2",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Battle Cars",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Castlevania: Dracula X",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Dirt Trax FX",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "ESPN Speedworld",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "FIFA 97: Gold Edition",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Gradius 3",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Home Improvement: Power Tool Pursuit!",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Jimmy Houston's Bass Tournament U.S.A.",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "King Arthur's World",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lock On",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Mario Paint",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NBA Showdown",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "PGA Tour Golf",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Revolution X",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Shaq Fu",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Tetris & Dr. Mario",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Urban Strike",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Wheel of Fortune Deluxe!",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Aerobiz",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Battle Clash",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Champions World Class Soccer",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Donkey Kong Country",
+"owned": true,
+"letter": "D"
+},
+{
+"title": "ESPN Sunday Night NFL",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "FIFA International Soccer",
+"owned": true,
+"letter": "F"
+},
+{
+"title": "GunForce",
+"owned": false,
+"letter": "G"
+},
+{
+"title": "Hook",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Joe & Mac",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "King of the Monsters",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Looney Tunes B-Ball",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Mario's Early Years! Fun with Letters",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NCAA Basketball",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "Phalanx",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Rex Ronan: Experimental Surgeon",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Shien's Revenge",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tetris 2",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Utopia: The Creation of a Nation",
+"owned": false,
+"letter": "U"
+},
+{
+"title": "Wheel of Fortune: Featuring Vanna White",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Aerobiz Supersonic",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Battle Grand Prix",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Championship Pool",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Donkey Kong Country 2: Diddy's Kong Quest",
+"owned": true,
+"letter": "D"
+},
+{
+"title": "Exertainment Mountain Bike Rally / Speed Racer",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "FIFA Soccer 96",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Hurricanes",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "Joe & Mac 2: Lost in the Tropics",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "King of the Monsters 2",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lufia & the Fortress of Doom",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Mario's Early Years! Fun with Numbers",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NCAA Final Four Basketball",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Phantom 2040",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Riddick Bowe Boxing",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Side Pocket",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tetris Attack",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Where in the World Is Carmen Sandiego?",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Air Cavalry",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Battletoads & Double Dragon",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Chester Cheetah: Too Cool to Fool",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Exhaust Hear",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "Fighter's History",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Hyper V-Ball",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "John Madden Football '93",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Kirby Super Star",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Lufia 2: Rise of the Sinistrals",
+"owned": false,
+"letter": "L"
+},
+{
+"title": "Mario's Early Years! Preschool Fun",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NCAA Football",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Pieces",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Rise of the Phoenix",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "SimAnt",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Addams Family",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Where in Time is Carmen Sandiego?",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Al Unser Jr.'s Road to the Top",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Battletoads in Battlemainacs",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Chester Cheetah: Wild Wild Quest",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "DOOM",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Extra Innings",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "Final Fantasy 2",
+"owned": true,
+"letter": "F"
+},
+{
+"title": "HyperZone",
+"owned": false,
+"letter": "H"
+},
+{
+"title": "John Madden Football",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Kirby's Avalanche",
+"owned": true,
+"letter": "K"
+},
+{
+"title": "Mario's Time Machine",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Newman/Haas IndyCar featuring Nigel Mansell",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Pilotwings",
+"owned": true,
+"letter": "P"
+},
+{
+"title": "Rise Of The Robots",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Sim City",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "The Addams Family: Pugsley's Scavenger Hunt",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Whizz",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Aladdin",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Bazooka Blitzkrieg",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Choplifter III",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Doom Troopers",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Eye of the Beholder",
+"owned": false,
+"letter": "E"
+},
+{
+"title": "Final Fantasy 3",
+"owned": true,
+"letter": "F"
+},
+{
+"title": "Judge Dredd",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Kirby's Dream Course",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Mark Davis' The Fishing Master",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NFL Football",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Pinball Dreams",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Rival Turf!",
+"owned": true,
+"letter": "R"
+},
+{
+"title": "SimCity 2000",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Adventures of Batman & Robin",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wild Guns",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Alfred Chicken",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Beauty and the Beast",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Chrono Trigger",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Doomsday Warrior",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Final Fantasy: Mystic Quest",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Jungle Strike",
+"owned": true,
+"letter": "J"
+},
+{
+"title": "Kirby's Dream Land 3",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Marvel Super Heroes: War of the Gems",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NFL Quarterback Club",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Pinball Fantasies",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Road Riot 4WD",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "SimEarth",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Adventures of Dr. Franken",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wild Snake",
+"owned": true,
+"letter": "W"
+},
+{
+"title": "Alien 3",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Beavis and Butt-head",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Chuck Rock",
+"owned": true,
+"letter": "C"
+},
+{
+"title": "DoReMi Fantasy: Milon's DokiDoki Adventure",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Final Fight",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Jurassic Park",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Knights of the Round",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Mary Shelley's Frankenstein",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NFL Quarterback Club 96",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Pink Goes to Hollywood",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Road Runner's Death Valley Rally",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Sink or Swim",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Adventures of Mighty Max",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wing Commander",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Alien vs Predator",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Bebe's Kids",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Civilization",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Double Dragon V: The Shadow Falls",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Final Fight 2",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Jurassic Park 2: The Chaos Continues",
+"owned": false,
+"letter": "J"
+},
+{
+"title": "Krusty's Super Fun House",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Math Blaster: Episode 1",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NHL '94",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "Pinocchio",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "RoboCop 3",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Sküljagger: Revolt of the Westicans",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Adventures of Rocky and Bullwinkle and Friends",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wing Commander: The Secret Missions",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "American Gladiators",
+"owned": true,
+"letter": "A"
+},
+{
+"title": "Beethoven: The Ultimate Canine Caper",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "ClayFighter",
+"owned": true,
+"letter": "C"
+},
+{
+"title": "Dragon View",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Final Fight 3",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Justice League Task Force",
+"owned": true,
+"letter": "J"
+},
+{
+"title": "Kyle Petty's No Fear Racing",
+"owned": false,
+"letter": "K"
+},
+{
+"title": "Maui Mallard in Cold Shadow",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NHL 95",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "Pirates of Dark Water",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "RoboCop Versus The Terminator",
+"owned": true,
+"letter": "R"
+},
+{
+"title": "SkyBlazer",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Blues Brothers",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wings 2: Aces High",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "An American Tail: Fievel Goes West",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Best of the Best: Championship Karate",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "ClayFighter 2: Judgement Clay",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Dragon: The Bruce Lee Story",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Final Fight Guy",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Mecarobot Golf",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NHL 96",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "Pit Fighter",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Robotrek",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Smart Ball",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Brainies",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Winter Olympic Games: Lillehammer '94",
+"owned": true,
+"letter": "W"
+},
+{
+"title": "Andre Agassi Tennis",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Big Sky Trooper",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "ClayFighter: Tournament Edition",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Dragon's Lair",
+"owned": true,
+"letter": "D"
+},
+{
+"title": "Firestriker",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "MechWarrior",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NHL 97",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "Pitfall: The Mayan Adventure",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Rock n' Roll Racing",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Snow White: Happily Ever After",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Chaos Engine",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wizardry V: Heart of the Maelstrom",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Animaniacs",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Biker Mice From Mars",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Claymates",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Drakkhen",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "First Samurai",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "MechWarrior 3050",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NHL 98",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Plok",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Rocko's Modern Life: Spunky's Dangerous Day",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Soccer Kid",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Chessmaster",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wolfchild",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Another World",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Bill Laimbeer's Combat Basketball",
+"owned": true,
+"letter": "B"
+},
+{
+"title": "Cliffhanger",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Dream TV",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Flashback",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Mega Man 7",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NHL Stanley Cup",
+"owned": true,
+"letter": "N"
+},
+{
+"title": "Pocky & Rocky",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Rocky Rodent",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Sonic Blast Man",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Combatribes",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wolfenstein 3D",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Arcana",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Bill Walsh College Football",
+"owned": true,
+"letter": "B"
+},
+{
+"title": "Clue",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Dungeon Master",
+"owned": false,
+"letter": "D"
+},
+{
+"title": "Football Fury",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Mega Man Soccer",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "NHLPA Hockey '93",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Pocky & Rocky 2",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Roger Clemens' MVP Baseball",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Sonic Blast Man 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Death and Return of Superman",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wolverine: Adamantium Rage",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Ardy Lightfoot",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "BioMetal",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "College Football USA '97: The Road to New Orleans",
+"owned": true,
+"letter": "C"
+},
+{
+"title": "Foreman For Real",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Mega Man X",
+"owned": true,
+"letter": "M"
+},
+{
+"title": "Nickelodeon Guts",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Populous",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Romance of the Three Kingdoms 2",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "SOS",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Duel: Test Drive II",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Wordtris",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Arkanoid: Doh It Again",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Blackthorne",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "College Slam",
+"owned": true,
+"letter": "C"
+},
+{
+"title": "Frank Thomas' Big Hurt Baseball",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Mega Man X2",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Nigel Mansell's World Championship Racing",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Porky Pig's Haunted Holiday",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Romance of the Three Kingdoms 3: Dragon of Destiny",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Soul Blazer",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Flintstones",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "World Cup Striker",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Art of Fighting",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "BlaZeon: The Bio-Cyborg Challenge",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Congo's Caper",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Frantic Flea",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Mega Man X3",
+"owned": true,
+"letter": "M"
+},
+{
+"title": "Ninja Gaiden Trilogy",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Power Instinct",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Romance of the Three Kingdoms 4: Wall of Fire",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Space Ace",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Flintstones: The Treasure of Sierra Madrock",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "World Cup USA '94",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Axelay",
+"owned": false,
+"letter": "A"
+},
+{
+"title": "Bonkers",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Contra 3: The Alien Wars",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Frogger",
+"owned": true,
+"letter": "F"
+},
+{
+"title": "Metal Combat: Falcon's Revenge",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Ninja Warriors",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Power Moves",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "RPM Racing",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Space Football: One-on-One",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Great Circus Mystery Starring Mickey & Minnie",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "World Heroes",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Boogerman: A Pick and Flick Adventure",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Cool Spot",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Full Throttle: All-American Racing",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Metal Marines",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "No Escape",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Power Piggs of the Dark Age",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Run Saber",
+"owned": false,
+"letter": "R"
+},
+{
+"title": "Space Invaders",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "The Great Waldo Search",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "World Heroes 2",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Boxing Legends of the Ring",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Cool World",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Fun 'n Games",
+"owned": false,
+"letter": "F"
+},
+{
+"title": "Metal Morph",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Nobunaga's Ambition",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Power Rangers Zeo: Battle Racers",
+"owned": true,
+"letter": "P"
+},
+{
+"title": "Space Megaforce",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Hunt for Red October",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "World League Soccer",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Bombuzal",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Cutthroat Island",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Metal Warriors",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Nobunaga's Ambition: Lord of Darkness",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Prehistorik Man",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Spanky's Quest",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Ignition Factor",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "WWF Raw",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Brain Lord",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Cyber Spin",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Michael Andretti's Indy Car Challenge",
+"owned": true,
+"letter": "M"
+},
+{
+"title": "Nolan Ryan's Baseball",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Primal Rage",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Sparkster",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Incredible Crash Dummies",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "WWF Royal Rumble",
+"owned": true,
+"letter": "W"
+},
+{
+"title": "Bram Stoker's Dracula",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Cybernator",
+"owned": false,
+"letter": "C"
+},
+{
+"title": "Michael Jordan: Chaos in the Windy City",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Nosferatu",
+"owned": false,
+"letter": "N"
+},
+{
+"title": "Prince of Persia",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Spectre",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Incredible Hulk",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "WWF Super WrestleMania",
+"owned": false,
+"letter": "W"
+},
+{
+"title": "Brandish",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mickey Mania",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Prince of Persia 2: The Shadow and the Flame",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Speed Racer in My Most Dangerous Adventures",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Itchy & Scratchy Game",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "WWF WrestleMania: The Arcade Game",
+"owned": true,
+"letter": "W"
+},
+{
+"title": "Brawl Brothers",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mickey's Ultimate Challenge",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Pro Quarterback",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Speedy Gonzales: Los Gatos Bandidos",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Jetsons: Invasion of the Planet Pirates",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "BreakThru!",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Micro Machines",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Pro Sport Hockey",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Spider-Man",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Jungle Book",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Breath of Fire",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Might and Magic III: Isles of Terra",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Pushover",
+"owned": false,
+"letter": "P"
+},
+{
+"title": "Spider-Man and the X-Men in Arcade's Revenge",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "The King of Dragons",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Breath of Fire 2",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mighty Morphin Power Rangers",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Spider-Man and Venom: Maximum Carnage",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Lawnmower Man",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Brett Hull Hockey",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mighty Morphin Power Rangers: The Fighting Edition",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Spindizzy Worlds",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Legend of the Mystical Ninja",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Brett Hull Hockey '95",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mighty Morphin Power Rangers: The Movie",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Sports Illustrated: Championship Football & Baseball",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Legend of Zelda: A Link to the Past",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Bronkie the Bronchiasaurus",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Miracle Piano",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Star Fox",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "The Lion King",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Brunswick World: Tournament of Champions",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "MLBPA Baseball",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Star Fox 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Lost Vikings",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Brutal: Paws of Fury",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mohawk & Headphone Jack",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Star Trek: Deep Space Nine – Crossroads of Time",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Lost Vikings 2",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Bubsy II",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Monopoly",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Star Trek: Starfleet Academy – Starship Bridge Simulator",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Magical Quest Starring Mickey Mouse",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Bubsy in Claws Encounters of the Furred Kind",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mortal Kombat",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Star Trek: The Next Generation – Future's Past",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Mask",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Bugs Bunny Rabbit Rampage",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mortal Kombat 2",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Stargate",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Pagemaster",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Bulls vs. Blazers and the NBA Playoffs",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mortal Kombat 3",
+"owned": true,
+"letter": "M"
+},
+{
+"title": "Steel Talons",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Peace Keepers",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Bust-a-Move",
+"owned": false,
+"letter": "B"
+},
+{
+"title": "Mountain Bike Rally",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Sterling Sharpe: End 2 End",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Ren & Stimpy Show: Buckeroo$!",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Mr. Do!",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Stone Protectors",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Ren & Stimpy Show: Fire Dogs",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Mr. Nutz",
+"owned": true,
+"letter": "M"
+},
+{
+"title": "Street Combat",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Ren & Stimpy Show: Time Warp",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Ms. Pac-Man",
+"owned": true,
+"letter": "M"
+},
+{
+"title": "Street Fighter Alpha 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Ren & Stimpy Show: Veediots",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Musya",
+"owned": false,
+"letter": "M"
+},
+{
+"title": "Street Fighter 2' Turbo: Hyper Fighting",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "The Rocketeer",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Street Fighter 2: The World Warrior",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Simpsons: Bart's Nightmare",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Street Hockey '95",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Super Aquatic Games Starring the Aquabats",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Street Racer",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Terminator",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Strike Gunner S.T.G.",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Untouchables",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Striker",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Tick",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Stunt Race FX",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Twisted Tales of Spike McFang",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Sunset Riders",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "The Wizard of Oz",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Adventure Island",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "The 7th Saga",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Adventure Island 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Todd McFarlane's Spawn: The Video Game",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Baseball 2020",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tom and Jerry",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Baseball Simulator 1.000",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tommy Moe's Winter Extreme: Skiing & Snowboarding",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Bases Loaded",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Tony Meola's Sidekicks Soccer",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Bases Loaded 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Top Gear",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Bases Loaded 3: License to Steal",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Top Gear 2",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Batter Up",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Top Gear 3000",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Battleship",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Total Carnage",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Battletank 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Toy Story",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Black Bass",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Toys",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Bomberman",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Troddlers",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Bomberman 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Troy Aikman NFL Football",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Bonk",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "True Golf Classics: Pebble Beach Golf Links",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Bowling",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "True Golf Classics: Waialae Country Club",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Super Buster Bros",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "True Golf Classics: Wicked 18",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Caesars Palace",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "True Lies",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Castlevania 4",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Tuff E Nuff",
+"owned": false,
+"letter": "T"
+},
+{
+"title": "Super Chase H.Q.",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Turn and Burn: No-Fly Zone",
+"owned": true,
+"letter": "T"
+},
+{
+"title": "Super Conflict",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Double Dragon",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super E.D.F. Earth Defense Force",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Empire Strikes Back",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Ghouls 'n Ghosts",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Super Goal! 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Godzilla",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super High Impact",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Super James Pond",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Mario All-Stars",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Super Mario Kart",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Mario RPG: Legend of the Seven Stars",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Mario World",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Super Mario World 2: Yoshi's Island",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Metroid",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Super Ninja Boy",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Nova",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Off Road",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Off Road: The Baja",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Pang",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Pinball: Behind the Mask",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Play Action Football",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Super Punch-Out!!",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Putty",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super R-Type",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super R.B.I. Baseball",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Scope 6",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Slam Dunk",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Slap Shot",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Smash TV",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Soccer",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Soccer Champ",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Solitaire",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Star Wars",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "Super Star Wars: Return of the Jedi",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Star Wars: The Empire Strikes Back",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Street Fighter 2: The New Challengers",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Strike Eagle",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super SWIV",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Tennis",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Troll Islands",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Turrican",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Turrican 2",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Valis 4",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Super Widget",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Suzuka 8 Hours",
+"owned": true,
+"letter": "S"
+},
+{
+"title": "SWAT Kats: The Radical Squadron",
+"owned": false,
+"letter": "S"
+},
+{
+"title": "Syndicate",
+"owned": false,
+"letter": "S"
+}
+]
