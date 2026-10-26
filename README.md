@@ -2,6 +2,8 @@
 
 Live app: https://josephrobinson2003-lgtm.github.io/snes-tracker/
 
+Android app: [SNES-Tracker.apk](https://github.com/josephrobinson2003-lgtm/snes-tracker/releases/latest/download/SNES-Tracker.apk) — works offline with the list bundled in. iPhone: use Safari → Share → Add to Home Screen.
+
 A simple phone-friendly checklist of 710 SNES games. Joe's owned games (the yellow cells in his spreadsheet) are the default list for everyone.
 
 - Tap a game to switch it between Owned and Need. Changes are saved only on that phone or browser, in localStorage.

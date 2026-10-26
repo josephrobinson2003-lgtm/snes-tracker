@@ -65,7 +65,9 @@ h2{font-size:18px;margin:6px 0 10px}.toast{position:fixed;left:50%;bottom:80px;t
   <textarea id="io" placeholder="Paste an exported list here (JSON or one title per line), then tap Import"></textarea>
   <button class="btn" id="imp">Import (replaces this phone's owned list)</button>
   <button class="btn warn" id="reset">Reset to Joe's list</button>
-  <p style="color:var(--mute);font-size:12px">Version 49f8f1f4cd</p>
+  <h2>Phone app</h2>
+  <div class="note"><b>Android:</b> <a style="color:var(--own)" href="https://github.com/josephrobinson2003-lgtm/snes-tracker/releases/latest/download/SNES-Tracker.apk">Download SNES-Tracker.apk</a>, open it, and allow the install. <b>iPhone:</b> open this page in Safari, tap Share, then Add to Home Screen.</div>
+  <p style="color:var(--mute);font-size:12px">Version 18e656c0a8</p>
 </section>
 <nav><button class="on" data-v="list">All games</button><button data-v="owned">Owned list</button><button data-v="more">Share / Sync</button></nav>
 <div class="toast" id="toast"></div>
@@ -120,7 +122,7 @@ if(!s.size)return toast("No matching games found");if(!confirm(`Replace this pho
 owned=s;save();render();toast(`Imported ${s.size} games`)};
 $("reset").onclick=()=>{if(!confirm("Reset this phone to Joe's list? Your changes on this phone will be lost."))return;localStorage.removeItem(KEY);owned=new Set(DEFAULT);render();toast("Reset to Joe's list")};
 render();setHH();
-if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js?v=49f8f1f4cd").then(r=>r.update());let rl=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!rl){rl=true;location.reload()}})}
+if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js?v=18e656c0a8").then(r=>r.update());let rl=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!rl){rl=true;location.reload()}})}
 </script>
 </body>
 </html>
