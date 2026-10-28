@@ -66,7 +66,7 @@ h2{font-size:18px;margin:6px 0 10px}.toast{position:fixed;left:50%;bottom:80px;t
   <button class="btn" id="imp">Import (replaces this phone's owned list)</button>
   <button class="btn warn" id="reset">Reset to Joe's list</button>
   <h2>Phone app</h2>
-  <div class="note"><b>Android:</b> <a style="color:var(--own)" href="https://github.com/josephrobinson2003-lgtm/snes-tracker/releases/latest/download/SNES-Tracker.apk">Download SNES-Tracker.apk</a>, open it, and allow the install. <b>iPhone:</b> open this page in Safari, tap Share, then Add to Home Screen.</div>
+  <div class="note"><b>Android:</b> <a style="color:var(--own)" href="https://github.com/josephrobinson2003-lgtm/snes-tracker/releases/latest/download/SNES-Tracker.apk">Download SNES-Tracker.apk</a> (v1.1), open it, and allow the install. From v1.1 on, the app picks up Joe's list updates automatically whenever it opens online. If you have v1.0, install this once over it; your taps are kept. <b>iPhone:</b> open this page in Safari, tap Share, then Add to Home Screen.</div>
   <p style="color:var(--mute);font-size:12px">Version __VER__</p>
 </section>
 <nav><button class="on" data-v="list">All games</button><button data-v="owned">Owned list</button><button data-v="more">Share / Sync</button></nav>
@@ -80,9 +80,17 @@ GAMES.forEach((g,i)=>{g.id=i;g.n=norm(g.title);g.nc=g.n.replace(/ /g,"");g.k=sor
 GAMES.sort((a,b)=>a.k<b.k?-1:a.k>b.k?1:0);
 const DEFAULT=new Set(GAMES.filter(g=>g.owned).map(g=>g.title));
 const byNorm=new Map(GAMES.map(g=>[g.n,g]));
-let owned;try{const s=JSON.parse(localStorage.getItem(KEY));owned=Array.isArray(s)?new Set(s):new Set(DEFAULT)}catch(e){owned=new Set(DEFAULT)}
-const custom=()=>localStorage.getItem(KEY)!==null;
-const save=()=>localStorage.setItem(KEY,JSON.stringify([...owned]));
+// Only this phone's own changes are stored (title -> true/false). Every other game follows
+// Joe's latest published list, so new games and list updates show up automatically.
+const OKEY="snes-overrides-v2",V1_DEFAULT=__V1__;
+let ov={};
+try{const s=JSON.parse(localStorage.getItem(OKEY));if(s&&typeof s==="object"&&!Array.isArray(s))ov=s;else{
+ const v1=JSON.parse(localStorage.getItem(KEY));if(Array.isArray(v1)){const S=new Set(v1),B=new Set(V1_DEFAULT);
+  for(const t of S)if(!B.has(t))ov[t]=true;for(const t of B)if(!S.has(t))ov[t]=false;localStorage.setItem(OKEY,JSON.stringify(ov))}}}catch(e){ov={}}
+const owned={has:t=>Object.prototype.hasOwnProperty.call(ov,t)?ov[t]:DEFAULT.has(t),
+ set:(t,v)=>{if(v===DEFAULT.has(t))delete ov[t];else ov[t]=v}};
+const custom=()=>Object.keys(ov).some(t=>byNorm.has(norm(t)));
+const save=()=>localStorage.setItem(OKEY,JSON.stringify(ov));
 let filter="all",q="";
 const $=id=>document.getElementById(id);
 function toast(m){const t=$("toast");t.textContent=m;t.classList.add("on");clearTimeout(toast.x);toast.x=setTimeout(()=>t.classList.remove("on"),1800)}
@@ -98,7 +106,7 @@ $("jump").innerHTML=qq?"":letters.map(l=>`<span data-l="${l}">${l}</span>`).join
 function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function renderOwned(){const l=GAMES.filter(g=>owned.has(g.title));$("oc").textContent=l.length;$("ownedList").innerHTML=l.map(g=>`<li>${esc(g.title)}</li>`).join("")}
 $("list").addEventListener("click",e=>{const r=e.target.closest(".row");if(!r)return;const g=GAMES.find(x=>x.id==r.dataset.id);
-if(owned.has(g.title))owned.delete(g.title);else owned.add(g.title);save();const o=owned.has(g.title);
+owned.set(g.title,!owned.has(g.title));save();const o=owned.has(g.title);
 r.className="row "+(o?"own":"need")+" flash";r.querySelector(".badge").textContent=o?"✓ OWNED":"NEED";stats();toast((o?"Marked owned: ":"Marked need: ")+g.title);
 if(filter!=="all")setTimeout(render,600)});
 let qt;$("q").addEventListener("input",e=>{q=e.target.value;$("qx").style.display=q?"block":"none";clearTimeout(qt);qt=setTimeout(()=>{render();window.scrollTo(0,0)},60)});
@@ -119,10 +127,10 @@ $("imp").onclick=()=>{const raw=$("io").value.trim();if(!raw)return toast("Paste
 try{const j=JSON.parse(raw);titles=Array.isArray(j)?j:j.owned}catch(e){titles=raw.split(/\r?\n/)}
 const s=new Set(),miss=[];for(const t of titles||[]){if(!String(t).trim())continue;const g=byNorm.get(norm(String(t).replace(/^\s*\d+[.)]\s*/,"")))||byNorm.get(norm(String(t)));if(g)s.add(g.title);else miss.push(t)}
 if(!s.size)return toast("No matching games found");if(!confirm(`Replace this phone's list with ${s.size} owned games?`+(miss.length?`\n(${miss.length} lines didn't match)`:"")))return;
-owned=s;save();render();toast(`Imported ${s.size} games`)};
-$("reset").onclick=()=>{if(!confirm("Reset this phone to Joe's list? Your changes on this phone will be lost."))return;localStorage.removeItem(KEY);owned=new Set(DEFAULT);render();toast("Reset to Joe's list")};
+ov={};for(const g of GAMES)owned.set(g.title,s.has(g.title));save();render();toast(`Imported ${s.size} games`)};
+$("reset").onclick=()=>{if(!confirm("Reset this phone to Joe's list? Your changes on this phone will be lost."))return;localStorage.removeItem(KEY);ov={};save();render();toast("Reset to Joe's list")};
 render();setHH();
-if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js?v=__VER__").then(r=>r.update());let rl=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!rl){rl=true;location.reload()}})}
+if("serviceWorker"in navigator){navigator.serviceWorker.register("sw.js?v=__VER__").then(r=>r&&r.update()).catch(()=>{});let rl=false;navigator.serviceWorker.addEventListener("controllerchange",()=>{if(!rl){rl=true;location.reload()}})}
 </script>
 </body>
 </html>
